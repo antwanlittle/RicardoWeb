@@ -1,0 +1,82 @@
+#wrapper{
+background-color: gray; 
+           color: #000066;
+           width: 80%;
+		   margin: 0 auto;
+           min-width: 960px;
+
+}
+h1{font-family:Cursive; display:inline;}
+span{font-size:80px; color:#8C001A;}
+
+
+
+#header{background-color: #808000;
+        color: black; 
+        font-size: 150%; 
+        padding: 10px 10px 10px 155px;
+		background-image: url(alshamsi.jpg); 
+		background-repeat: no-repeat;}
+#sidebar{
+width:250px;
+height:800px;
+background-image: url(newpose.jpg);
+background-repeat: no-repeat; 
+color:blue;
+float:left;}
+
+#content{
+
+
+
+
+	       }
+#body{
+background-color:gray;
+width:610px;
+height:800;
+padding: 0px;
+color: #000000;
+float: left;
+overflow:auto;
+background-image: url(Ricardo.jpg);}
+#footer{clear:both;
+
+
+
+
+}
+#navbar {
+
+		float:right;
+		width:150px;
+		height:800px;
+		letter-spacing:0.1em;
+	   font-weight: bold;
+	   background-color:#8C001A
+	   
+		
+		
+}
+#navbar a{
+text-decoration:none;
+display: block;
+margin: 0;
+padding: 20px;
+background-color:#8C001A;
+border-bottom: 2px solid #black;
+		
+
+}
+#navbar ul {
+list-style-type:none;
+margin 0;
+padding:0;
+}
+
+
+#navbar a:link{color:black;}
+#navbar a:visited{color:#eaeaea}
+#navbar a:hover{background-color:#eaeaea;
+				color:#8C001A;
+				}
