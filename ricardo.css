@@ -1,12 +1,13 @@
 #wrapper{
-background-color: gray; 
+background-image: url(newpose.jpg);
+background-repeat: no-repeat;  
            color: #000066;
            width: 80%;
 		   margin: 0 auto;
            min-width: 960px;
 
 }
-h1{font-family:Cursive; display:inline;}
+h1{font-family:Cursive; display:inline; text-align:left;}
 span{font-size:80px; color:#8C001A;}
 
 
@@ -18,12 +19,13 @@ span{font-size:80px; color:#8C001A;}
 		background-image: url(alshamsi.jpg); 
 		background-repeat: no-repeat;}
 #sidebar{
-width:250px;
+width:215px;
 height:800px;
 background-image: url(newpose.jpg);
 background-repeat: no-repeat; 
 color:blue;
-float:left;}
+float:left;
+display: inline}
 
 #content{
 
@@ -33,13 +35,29 @@ float:left;}
 	       }
 #body{
 background-color:gray;
-width:610px;
+width:616px;
 height:800;
 padding: 0px;
 color: #000000;
 float: left;
 overflow:auto;
-background-image: url(Ricardo.jpg);}
+background-image: url(Ricardo.jpg);
+display:inline}
+#footer{clear:both;
+
+
+
+
+}
+#resume{
+background-color:gray;
+width:831px;
+height:800;
+padding: 0px;
+color: #000000;
+float: left;
+overflow:auto;
+}
 #footer{clear:both;
 
 
@@ -49,11 +67,13 @@ background-image: url(Ricardo.jpg);}
 #navbar {
 
 		float:right;
-		width:150px;
+		width:148px;
 		height:800px;
 		letter-spacing:0.1em;
 	   font-weight: bold;
-	   background-color:#8C001A
+	   background-color:#8C001A;
+	   border
+	  
 	   
 		
 		
@@ -64,7 +84,7 @@ display: block;
 margin: 0;
 padding: 20px;
 background-color:#8C001A;
-border-bottom: 2px solid #black;
+border-bottom: 2px solid white;
 		
 
 }
